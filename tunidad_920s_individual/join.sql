@@ -9,4 +9,3 @@ SELECT * FROM `persona` WHERE nombre LIKE '%a%';
 SELECT * FROM `persona` WHERE (nombre LIKE'%a%' OR apellido LIKE '%o%') AND id>=4;
 SELECT COUNT(*) FROM `persona`;
 SELECT COUNT(*) as cantidaf FROM `persona`;
-SELECT u.* FROM `usuario` as u INNER JOIN persona AS p ON u.id_persona = p.id WHERE login = "garodriguez335@misena.edu.co" AND password = "popayan111";
